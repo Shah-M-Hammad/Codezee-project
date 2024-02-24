@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="Blog/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header-Section">
+      <div class="navbar">
+        <div class="sticking">
+          <div class="logo-section">
+            <h3 class="logo">Code CrazeHub</h3>
+          </div>
+
+          <div class="button-section">
+            <button class="logout-button">Log Out</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="blog-Section">
+      <main class="blog-data">
+        <div class="heading">
+          <h1>Create Blog Or Ask Question</h1>
+        </div>
+
+        <div class="margin"></div>
+
+        <div class="info">
+          <div class="title-input">
+            <h2 class="sub-Heading">Title</h2>
+            <input
+              type="text"
+              name="title"
+              id="title"
+              placeholder="Enter Title"
+            />
+          </div>
+
+          <div class="categories">
+            <label for="category">Choose the Category:</label>
+
+            <select name="category" id="category">
+              <option value="HTML">HTML</option>
+              <option value="JavaScript">JavaScript</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="type-Selection">
+          <div class="select-type">
+            <h2 class="sub-Heading">Select Type</h2>
+            <input
+              class="radio"
+              type="radio"
+              id="Blog"
+              name="type"
+              value="Blog"
+            />
+            <label for="Blog">Blog</label>
+            <input
+              class="radio"
+              type="radio"
+              id="Question"
+              name="type"
+              value="Question"
+            />
+            <label for="Question">Question</label>
+          </div>
+
+          <div class="select-status">
+            <h2 class="sub-Heading">Select Status</h2>
+            <input
+              class="radio"
+              type="radio"
+              id="Active"
+              name="status"
+              value="Active"
+            />
+            <label for="Active">Active</label>
+            <input
+              class="radio"
+              type="radio"
+              id="In Active"
+              name="status"
+              value="In Active"
+            />
+            <label for="In Active">In Active</label>
+          </div>
+        </div>
+
+        <div class="description">
+          <h2 class="sub-Heading">Description</h2>
+          <textarea
+            name="description"
+            id="description"
+            cols="30"
+            rows="10"
+            placeholder="Caption..."
+          ></textarea>
+        </div>
+
+        <div class="button-section">
+          <button id="save" class="save-button">Save</button>
+          <button id="cancle" class="cancel-button">Cancel</button>
+        </div>
+      </main>
+    </section>
+
+    <script type="module" src="Blog/main.js"></script>
+  </body>
+</html>

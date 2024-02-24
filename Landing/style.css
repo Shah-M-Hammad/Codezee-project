@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.header-Section {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ADBC9F;
+
+}
+
+.header-Section .navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: burlywood;
+
+}
+
+.header-Section .navbar .sticking {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:peachpuff;
+    z-index: 5;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 40px;
+}
+
+.logo {
+    margin: 0;
+    color: #12372A;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.logo-section {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.facility-section {
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.facility-section .searchBar-Div {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+.facility-section .searchBar-Div .searchBar {
+    width: 90%;
+    padding: 5px 10px 5px 25px; 
+    color: black;
+    font-size: large;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 0;
+}
+
+.facility-section .searchBar-Div .search-icon {
+    width: 10%;
+    height: 100%;
+    background-color:#B67352;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+
+.blog-section {
+    width: 20%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.blog-section .blog-button {
+    background-color:#B67352;
+    padding: 11px 28px;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.button-section {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-section .login-button {
+    background-color: #12372A;
+    padding: 11px 28px;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.button-section .logout-button {
+    background-color:#B67352;
+    padding: 11px 28px;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    /* display: none; */
+}
+
+.main-Data {
+    background-color:peachpuff;
+    color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 20px;
+}
+
+.main-Data .qna-Data {
+    width: 90%;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    padding: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.question {
+    width: 90%;
+    height: auto;
+    display: flex;
+    background-color:peachpuff;
+    border-radius: 12px;
+    margin: 10px 0 5px 0;
+    padding: 10px 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.info-Data {
+    width: 80%;
+    padding: 20px 40px;
+}
+
+.heading {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: baseline;
+}
+
+.heading h1 {
+    color: black;
+}
+
+.description {
+    width: 100%;
+    height: 80px;
+}
+
+.description p {
+    color: black;
+}
+
+.description p a {
+    color: #12372A;
+}
+
+.admin-info {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.admin-info span ,.admin-info span i {
+    color: black;
+}
+
+.image-Section-1 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(q1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.image-Section-2 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(q2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.image-Section-3 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(q3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.image-Section-4 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(q4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.image-Section-5 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(q5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

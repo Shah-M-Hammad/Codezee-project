@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+.header-Section {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+
+.header-Section .navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color:burlywood;
+}
+
+.header-Section .navbar .sticking {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: peachpuff;
+    z-index: 5;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 40px;
+}
+
+h3 {
+    margin: 0;
+    color: #12372A;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.logo-section {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.button-section {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-section .logout-button{
+    color: white;
+    background-color:#B67352;
+    padding: 11px 28px;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-weight: bold;
+}
+
+.main-Body {
+    color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: peachpuff;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.main-Body .solution {
+    width: 90%;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.main-Body .solution .data {
+    padding: 20px 20%;
+}
+
+.main-Body .solution .data .heading {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+.main-Body .solution .data .heading h1 {
+    color: black;
+    font-size: 35px;
+}
+
+.main-Body .solution .data .paragraph p:nth-child(1) {
+    color: black;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+}
+
+.main-Body .solution .data .paragraph p:nth-child(2) {
+    color: black;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+}
+
+.main-Body .solution .data .paragraph p:nth-child(4) {
+    color: black;
+    margin: 20px 0 20px 0;
+    font-weight: bold;
+}
+
+.main-Body .solution .data .paragraph .image-section {
+    width: 100%;
+    height: 400px;
+    background-image: url(q1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-Body .solution .data .paragraph .admin-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-Body .solution .data .paragraph .admin-info p span {
+    font-family: 'Noto Sans', sans-serif;
+}
+ 
+.main-Body .solution .data .paragraph .comment-Section {
+    margin: 30px 0;
+}
+
+.main-Body .solution .data .paragraph .comment-Section p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main-Body .solution .data .paragraph .comment-Section textarea {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.main-Body .solution .data .paragraph .submit-button {
+    color: white;
+    background-color: #B67352;
+    padding: 11px 28px;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.commentSection {
+    background-color: white;
+    width: 90%;
+    margin: 1px 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.commentSection .display {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.commentSection .display .image {
+    width: 5%;
+}
+
+.commentSection .display .comment p:nth-child(1) {
+    font-weight: 900;
+}
+

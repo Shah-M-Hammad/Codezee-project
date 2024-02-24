@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:peachpuff;
+}
+
+.header-Section {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: peachpuff;
+}
+
+.header-Section .navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: burlywood;
+}
+
+.header-Section .navbar .sticking {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: peachpuff;
+    z-index: 5;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 40px;
+}
+
+.logo {
+    margin: 0;
+    color: #12372A;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.logo-section {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sticking .button-section {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-section .logout-button{
+    color: white;
+    background-color: #B67352;
+    padding: 11px 28px;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-weight: bold;
+}
+
+.blog-Section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: peachpuff;
+}
+
+.blog-Section .blog-data {
+    width: 70%;
+    background-color: burlywood;
+    height: auto;
+    padding: 20px 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.blog-Section .blog-data .heading {
+    height: 40px;
+}
+
+.blog-Section .blog-data .margin {
+    width: 100%;
+    height: 2px;
+    background-color: #ADBC9F;
+}
+
+.sub-Heading {
+    margin: 7px 0;
+}
+
+.blog-Section .blog-data .info {
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blog-Section .blog-data .info .title-input {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-Section .blog-data .info .title-input input {
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 17px;
+    margin: 0 0 5px 0;
+}
+
+.blog-Section .blog-data .info .categories{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-Section .blog-data .info .categories span{
+    width: 100%; 
+    height: 30px;
+    border: 1px solid gray;
+    text-align: center;
+    justify-content: center;
+}
+
+.blog-Section .blog-data .type-Selection {
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio {
+    margin: 0 3px 0 10px;
+}
+
+.blog-Section .blog-data .type-Selection .select-type {
+    width: 40%;
+}
+
+.blog-Section .blog-data .type-Selection .select-status {
+    width: 40%;
+}
+
+.blog-Section .blog-data .description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    
+}
+
+.blog-Section .blog-data .description textarea{
+    padding: 10px;    
+}
+
+.blog-Section .blog-data .button-section {
+    width: 100%;
+    height: 40px;
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.save-button , .cancel-button{
+    color: white;
+    background-color: #B67352;
+    padding: 11px 28px;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-weight: bold;
+}

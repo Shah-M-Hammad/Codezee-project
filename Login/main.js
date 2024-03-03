@@ -55,8 +55,7 @@ const signInWithEmail = (email, password) => {
 
             console.log(userCredential.user.uid);
 
-            // const docRef = doc(fdb, "users");
-            // const docSnap = await getDocs(docRef)
+           
 
             const q = query(collection(fdb, "users"), where("Uid", "==", userCredential.user.uid));
 
@@ -117,7 +116,7 @@ const loginWithGoogleFunction = () => {
 
 
 
-            window.location.replace("/landing Page.html");
+            window.location.replace("/landingPage.html");
 
         }).catch((error) => {
 
@@ -170,7 +169,7 @@ function addItemToLocalStorage(userData) {
 function checkAuth() {
     const isUser = JSON.parse(localStorage.getItem("userData"));
   
-    if(isUser) window.location.replace("/landing Page.html");
+    if(isUser) window.location.replace("/landingPage.html");
 }
 
 checkAuth()

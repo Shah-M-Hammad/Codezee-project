@@ -74,7 +74,7 @@ const registerWithEmail = (e) => {
                 Uid: userCredential.user.uid
           })
 
-            window.location.replace("/landing Page.html");
+            window.location.replace("/landingPage.html");
 
             })
             .catch((err)=>{
@@ -171,7 +171,7 @@ const signInWithGoogle = () => {
             Uid: result.user.uid
       })
 
-        window.location.replace("/landing Page.html");
+        window.location.replace("/landingPage.html");
 
         })
         .catch((err)=>{
@@ -246,7 +246,7 @@ function addItemToLocalStorage(userData) {
 function checkAuth() {
     const isUser = JSON.parse(localStorage.getItem("userData"));
   
-    if(isUser) window.location.replace("/landing Page.html");
+    if(isUser) window.location.replace("/landingPage.html");
 }
 
 checkAuth()

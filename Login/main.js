@@ -69,7 +69,7 @@ const signInWithEmail = (email, password) => {
 
 
 
-            window.location.replace(`/landing Page.html`);
+            window.location.replace(`/landingPage.html`);
 
             // set(child(dbref, "UsersList/" + userCredential.user.uid).then((snapshot)=>{
             //     if(snapshot.exists){
@@ -80,7 +80,7 @@ const signInWithEmail = (email, password) => {
             //         sessionStorage.setItem("user-creds", JSON.stringify(userCredential.user));
             //     }
             // }))
-            // window.location.href = "landing Page.html";
+            // window.location.href = "landingPage.html";
         })
         .catch((error) => {
             console.log("🚀 ~ signInWithEmail ~ error:", error)
